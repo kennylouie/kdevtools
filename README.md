@@ -45,3 +45,7 @@ This function conducts summary statistics between groups given a dataframe of va
 ## svmLoocv
 
 Support vector machine leave one out cross-validation. This function conducts an iterative svm() on a dataframe of features in columns and cases on rows. Of the cases, one will be used as the testing set while the remainder will be used for the training. This will be iteratively conducted until every case has been tested once. The output is an enviromental class.
+
+## svmRFE
+
+Support vector machine recursive feature elimination. An embedded machine learning method to rank each feature on their contribution to a svm() accuracy. Codebase directly taken from Johanndejong's blog (https://johanndejong.wordpress.com/2016/01/17/svm-with-recursive-feature-elimination/comment-page-1/). Original concept from Weston J, Guyon I, inventors; Health Discovery Corp, assignee. Support vector machine—Recursive feature elimination (SVM-RFE). United States patent US 8,095,483. 2012 Jan 10.
