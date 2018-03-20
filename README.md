@@ -8,3 +8,8 @@ Balanced iterative random forest. An embedded machine learning method to iterati
 ## limmaTable
 
 A wrapper on top of the already widely used limma package for analysis of microarrays. This function calls on topTable, which provides a table of the significant features from a fitted limma model. On top of this function, given the original beta matrix, the beta diff, sd, and which pairwise group the comparison is significant between is provided. Takes all the arguments from the original topTable function.
+
+
+## pairwise.anova
+
+Completes an ANOVA and subsequent TukeyHSD test on a dataset.
