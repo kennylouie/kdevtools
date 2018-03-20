@@ -1,7 +1,7 @@
 #' Leave-one-out-cross-validation with a random forest classifier
 #'
 #' a cross validation method to check the accuracy of a svm classifier on a matrix of features and samples
-#' @import e1071
+#' @import randomForest
 #' @param dat matrix of features in columns and samples in rows
 #' @param group vector of classifications for each sample in the same order as the rows in the matrix
 #' @param ... all other arguments/parameters for the randomForest function from the randomForest package

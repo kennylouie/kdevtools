@@ -33,3 +33,7 @@ Similar to pca.cov.cor() but only conducts association test with kruskal.test() 
 ## pcaTopCandidates
 
 This function extracts the most weighted eigengenes of a specific principal component. This function conducts PCA (SVD method) on a data matrix. From a specified PC, the most weighted (above 3rd IQR and below 1st) features of the PC will be extracted.
+
+## rfLoocv
+
+This function conducts an iterative randomForest() on dataframe of features in columns and cases on rows. Of the cases, one will be used as the testing set while the remainder will be used for the training. This will be iteratively conducted until every case has been tested once. The output is an enviromental class.
