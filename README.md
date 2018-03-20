@@ -13,3 +13,7 @@ A wrapper on top of the already widely used limma package for analysis of microa
 ## pairwise.anova
 
 Completes an ANOVA and subsequent TukeyHSD test on a dataset.
+
+## pairwise.fisher
+
+Given a variable of interest and column with groupings, this function conducts a fisher.test() on all the data. Significant comparisons will be further tested to identify the pairwise comparison(s) that is/are significant. Includes the p.adjust() function to correct for multiple comparisons.
