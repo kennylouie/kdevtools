@@ -36,8 +36,12 @@ This function extracts the most weighted eigengenes of a specific principal comp
 
 ## rfLoocv
 
-This function conducts an iterative randomForest() on dataframe of features in columns and cases on rows. Of the cases, one will be used as the testing set while the remainder will be used for the training. This will be iteratively conducted until every case has been tested once. The output is an enviromental class.
+This function conducts an iterative randomForest() on a dataframe of features in columns and cases on rows. Of the cases, one will be used as the testing set while the remainder will be used for the training. This will be iteratively conducted until every case has been tested once. The output is an enviromental class.
 
 ## s.s.test
 
 This function conducts summary statistics between groups given a dataframe of variables to be summarized as columns and cases in the rows. A column must be specified with the groupings needed.
+
+## svmLoocv
+
+This function conducts an iterative svm() on a dataframe of features in columns and cases on rows. Of the cases, one will be used as the testing set while the remainder will be used for the training. This will be iteratively conducted until every case has been tested once. The output is an enviromental class.
