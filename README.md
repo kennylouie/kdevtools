@@ -25,3 +25,7 @@ This function conducts a wilcox.test() on all possible pairwise comparisons give
 ## pca.cov.cor
 
 This function conducts PCA (SVD method) on a data matrix. For each PC that is produced, a correlation (spearman rank correlation)/association (kruskal-wallis) with a provided dataframe with columns as feature covariates. Includes the p.adjust() function to correct for multiple comparisons. The output is a table with significant (showall = F) PC/covariate correlations/associations.
+
+## pca.cov
+
+Similar to pca.cov.cor() but only conducts association test with kruskal.test() on a covariate dataframe of only factors (no numerical data).
