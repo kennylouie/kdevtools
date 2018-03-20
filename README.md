@@ -17,3 +17,7 @@ Completes an ANOVA and subsequent TukeyHSD test on a dataset.
 ## pairwise.fisher
 
 Given a variable of interest and column with groupings, this function conducts a fisher.test() on all the data. Significant comparisons will be further tested to identify the pairwise comparison(s) that is/are significant. Includes the p.adjust() function to correct for multiple comparisons.
+
+## pairwise.wilcox
+
+This function conducts a wilcox.test() on all possible pairwise comparisons given a variable of interest and column with groupings. Includes the p.adjust() function to correct for multiple comparisons.
