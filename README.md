@@ -29,3 +29,7 @@ This function conducts PCA (SVD method) on a data matrix. For each PC that is pr
 ## pca.cov
 
 Similar to pca.cov.cor() but only conducts association test with kruskal.test() on a covariate dataframe of only factors (no numerical data).
+
+## pcaTopCandidates
+
+This function extracts the most weighted eigengenes of a specific principal component. This function conducts PCA (SVD method) on a data matrix. From a specified PC, the most weighted (above 3rd IQR and below 1st) features of the PC will be extracted.
